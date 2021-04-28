@@ -21,4 +21,4 @@ def test_index():
 
     r = client.get('/')
     assert r.status_code == 200
-    assert 'Hi My name is Dheeraj' in r.data.decode('utf-8')
+    assert 'Hello Professor Dubey. This is our SWE642 Extra credit assignment.Thanks for the awesome semester Professor. Project members are: Sameer, Dheeraj, Aditya, Aakash and Viraj.' in r.data.decode('utf-8')
