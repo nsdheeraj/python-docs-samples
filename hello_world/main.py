@@ -25,7 +25,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hi my name is Dheeraj'
+    return 'Hello Professor Dubey. This is our SWE642 Extra credit assignment.Thanks for the awesome semester Professor. Project members are: Sameer, Dheeraj, Aditya, Aakash and Viraj.'
 
 
 if __name__ == '__main__':
